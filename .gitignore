@@ -88,3 +88,8 @@ typings/
 .dynamodb/
 
 .vercel
+
+.devcontainer/
+
+
+.vercel

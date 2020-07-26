@@ -5,6 +5,6 @@ export default async (
     response: NowResponse
 ): Promise<void> => {
     response.setHeader("cache-control", "s-maxage=31536000");
-    response.status(410).send("410 Gone");
+    response.status(410).send("410 Gone<br><a href='https://mstdn.asterism.xyz/'>next place</a>");
     return;
 };
